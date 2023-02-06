@@ -1,0 +1,71 @@
+body {
+	background: black;
+}
+
+#loginTitle {
+	font-family: sans-serif;
+}
+
+.box {
+	position: relative;
+	text-align: center;
+}
+
+.box h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.box h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.box input {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid dodgerblue;
+	padding: 14px 10px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+}
+
+.box input:hover {
+	border: 0;
+	box-shadow: 0 0 30px aqua, 0 0 30px aqua, 0 0 30px aqua;
+}
+
+.box input[type="submit"],
+.box input[type="button"] {
+	border: 2px solid ForestGreen;
+	cursor: pointer;
+	font-family: cursive;
+	font-style: oblique;
+}
+
+.box input[type="submit"]:hover {
+	border: 0;
+	color: lawngreen;
+	box-shadow: 0 0 30px lawngreen, 0 0 30px lawngreen, 0 0 30px lawngreen;
+}
+
+.box input[type="reset"] {
+	border: 2px solid IndianRed;
+	cursor: pointer;
+	font-family: cursive;
+	font-style: oblique;
+}
+
+.box input[type="reset"]:hover {
+	border: 0;
+	color: red;
+	box-shadow: 0 0 30px red, 0 0 30px red, 0 0 30px red;
+}
